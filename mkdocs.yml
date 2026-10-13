@@ -1,0 +1,25 @@
+site_name: orangeboot 的博客
+site_description: 记录嵌入式开发的学习和技术
+site_url: https://orangeboot4243.github.io/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: orange
+    accent: orange
+  features:
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - 首页: index.md
+  - 学习笔记: notes.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - fenced_code
+  - tables
+  - admonition
