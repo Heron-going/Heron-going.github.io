@@ -5,11 +5,30 @@ site_url: https://orangeboot4243.github.io/
 theme:
   name: material
   language: zh
+  font: false
+  icon:
+    logo: material/chip
   palette:
-    primary: orange
-    accent: orange
+    - scheme: default
+      primary: custom
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: custom
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
   features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
     - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
     - content.code.copy
 
 nav:
@@ -33,3 +52,10 @@ markdown_extensions:
   - fenced_code
   - tables
   - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
