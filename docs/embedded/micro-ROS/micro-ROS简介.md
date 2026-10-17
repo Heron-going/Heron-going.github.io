@@ -1,6 +1,6 @@
 # 概述
 
-在现代机器人与智能装备开发中，通常采用**"上位机（MPU/工控机）+ 下位机（MCU 单片机）"**的异构计算架构：上位机运行 [ROS 2](https://docs.ros.org/)，负责高算力的激光 SLAM、视觉感知、路径规划与行为决策；而下位机（如意法半导体的 [STM32 系列 32 位微控制器](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)）则负责强实时性的电机闭环控制、编码器脉冲采集、IMU 姿态解算与底层安全传感器触发。
+在现代机器人与智能装备开发中，通常采用 **"上位机（MPU/工控机）+ 下位机（MCU 单片机）"** 的异构计算架构：上位机运行 [ROS 2](https://docs.ros.org/)，负责高算力的激光 SLAM、视觉感知、路径规划与行为决策；而下位机（如意法半导体的 [STM32 系列 32 位微控制器](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)）则负责强实时性的电机闭环控制、编码器脉冲采集、IMU 姿态解算与底层安全传感器触发。
 
 在传统开发模式中，STM32 与 ROS 2 上位机之间隔着一道天然的"通信鸿沟"——开发者不得不手写串口打包解包协议，并在上位机额外编写"串口转 ROS 话题"的桥接节点。[micro-ROS](https://micro.vulcanexus.org/) 的出现正是为了彻底消除这一鸿沟，将标准 ROS 2 生态无缝延伸至微控制器内部。
 
