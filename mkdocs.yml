@@ -41,7 +41,7 @@ nav:
               - micro-ROS 简介: embedded/micro-ROS/micro-ROS简介.md
               - 详细配置指南: embedded/micro-ROS/详细配置指南/详细配置指南.md
               - 嵌入战队模板: embedded/micro-ROS/嵌入战队模板/嵌入战队模板.md
-              - 自定义消息: embedded/micro-ROS/自定义消息.md
+              - 自定义消息: embedded/micro-ROS/自定义消息/自定义消息.md
               - 中间件配置: embedded/micro-ROS/中间件配置/中间件配置.md
               - 网口传输: embedded/micro-ROS/网口传输/网口传输.md
 

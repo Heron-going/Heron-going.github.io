@@ -44,7 +44,7 @@ hide:
 
     创建消息包，编译并在单片机和电脑端使用。
 
-    [阅读笔记 →](embedded/micro-ROS/自定义消息.md)
+    [阅读笔记 →](embedded/micro-ROS/自定义消息/自定义消息.md)
 
 -   <span class="card-number">05 / 资源调优</span>
 

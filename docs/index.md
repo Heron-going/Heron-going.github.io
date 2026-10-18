@@ -73,6 +73,6 @@ hide:
 
 **继续深入 micro-ROS**
 
-把基础配置接到实际工程里：[嵌入战队模板](embedded/micro-ROS/嵌入战队模板/嵌入战队模板.md) · [自定义消息](embedded/micro-ROS/自定义消息.md) · [中间件配置](embedded/micro-ROS/中间件配置/中间件配置.md)
+把基础配置接到实际工程里：[嵌入战队模板](embedded/micro-ROS/嵌入战队模板/嵌入战队模板.md) · [自定义消息](embedded/micro-ROS/自定义消息/自定义消息.md) · [中间件配置](embedded/micro-ROS/中间件配置/中间件配置.md)
 
 </div>
