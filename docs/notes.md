@@ -8,6 +8,22 @@ hide:
 
 把学过的知识记录下来，方便复习，也与他人分享。
 
+## 嵌入式 · STM32
+
+记录 STM32 的开发环境配置与工程实践。
+
+<div class="grid cards" markdown>
+
+-   <span class="card-number">01 / 开发环境</span>
+
+    **鸿蒙 Windows 虚拟机开发与调试**
+
+    使用 Keil 编译、FlyMcu 烧录，通过 OpenOCD 与 VS Code 调试 STM32。
+
+    [阅读笔记 →](embedded/stm32/鸿蒙虚拟机开发/鸿蒙虚拟机开发.md)
+
+</div>
+
 ## 嵌入式 · micro-ROS
 
 从架构认识到 STM32 工程集成，按主题查阅，或从[专题概览](embedded/micro-ROS/index.md)开始阅读。

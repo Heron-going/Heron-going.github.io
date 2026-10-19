@@ -9,7 +9,7 @@ hide:
 
 <div class="hero-copy" markdown>
 
-<span class="eyebrow">ORANGEBOOT / ENGINEERING NOTES</span>
+<span class="eyebrow">Heron-going / ENGINEERING NOTES</span>
 
 # 嵌入式开发，<br>从原理到跑通。
 

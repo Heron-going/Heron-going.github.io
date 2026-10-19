@@ -1,4 +1,4 @@
-site_name: orangeboot 的博客
+site_name: Heron-going 的博客
 site_description: 记录嵌入式开发的学习和技术
 site_url: https://Heron-going.github.io/
 
@@ -36,6 +36,8 @@ nav:
   - 学习笔记:
       - 概览: notes.md
       - 嵌入式:
+          - STM32:
+              - 鸿蒙 Windows 虚拟机开发与调试: embedded/stm32/鸿蒙虚拟机开发/鸿蒙虚拟机开发.md
           - micro-ROS:
               - 专题概览: embedded/micro-ROS/index.md
               - micro-ROS 简介: embedded/micro-ROS/micro-ROS简介.md
