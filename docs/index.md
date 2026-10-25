@@ -39,40 +39,40 @@ hide:
 
 ## 从这里开始
 
-<p class="section-lead">按你的进度，找到下一步要解决的问题。</p>
+<p class="section-lead">第一次阅读建议按顺序完成下面三步：理解架构、跑通基础例程，再将 micro-ROS 接入已有工程。</p>
 
 <div class="grid cards entry-cards" markdown>
 
 -   <span class="card-number">01 / 认识架构</span>
 
-    **第一次接触 micro-ROS**
+    **先理解 Client 与 Agent 如何配合**
 
-    从 Client-Agent 架构开始，了解 STM32 如何接入 ROS 2。
+    认识 micro-ROS 的基本架构，弄清单片机、代理端与 ROS 2 各自负责什么，再开始配置环境。
 
     [阅读 micro-ROS 简介 →](embedded/micro-ROS/micro-ROS简介.md)
 
 -   <span class="card-number">02 / 动手配置</span>
 
-    **让第一个工程跑起来**
+    **完成配置，跑通第一个通信例程**
 
-    配置 STM32CubeMX、构建静态库，再启动代理端验证通信。
+    按指南准备 STM32CubeMX、WSL 与 Docker，编译静态库并启动 Agent，验证单片机与 ROS 2 的通信。
 
     [打开详细配置指南 →](embedded/micro-ROS/详细配置指南/详细配置指南.md)
 
--   <span class="card-number">03 / 扩展通信</span>
+-   <span class="card-number">03 / 工程集成</span>
 
-    **尝试以太网传输**
+    **把跑通的例程接入工程模板**
 
-    配置网口与代理端，把已经跑通的通信扩展到以太网。
+    基础通信成功后，再处理启动文件、构建配置、串口和堆栈，将 micro-ROS 集成到战队模板中。
 
-    [查看网口传输笔记 →](embedded/micro-ROS/网口传输/网口传输.md)
+    [继续阅读嵌入战队模板 →](embedded/micro-ROS/嵌入战队模板/嵌入战队模板.md)
 
 </div>
 
 <div class="home-bottom" markdown>
 
-**继续深入 micro-ROS**
+**完成基础集成后，继续逐步扩展**
 
-把基础配置接到实际工程里：[嵌入战队模板](embedded/micro-ROS/嵌入战队模板/嵌入战队模板.md) · [自定义消息](embedded/micro-ROS/自定义消息/自定义消息.md) · [中间件配置](embedded/micro-ROS/中间件配置/中间件配置.md)
+先用[自定义消息](embedded/micro-ROS/自定义消息/自定义消息.md)传递自己的数据，再通过[中间件配置](embedded/micro-ROS/中间件配置/中间件配置.md)理解通信缓冲区与资源上限。接着阅读[网口传输](embedded/micro-ROS/网口传输/网口传输.md)，验证以太网通信；需要独立调整工具链、重新生成目标板的库时，再看[自定义静态库](embedded/micro-ROS/自定义静态库/自定义静态库.md)。
 
 </div>
