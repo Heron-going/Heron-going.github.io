@@ -12,6 +12,8 @@ hide:
 
 记录 STM32 的开发环境配置与工程实践。
 
+### 环境搭建
+
 <div class="grid cards" markdown>
 
 -   <span class="card-number">01 / 开发环境</span>
@@ -20,7 +22,21 @@ hide:
 
     使用 Keil 编译、FlyMcu 烧录，通过 OpenOCD 与 VS Code 调试 STM32。
 
-    [阅读笔记 →](embedded/stm32/鸿蒙虚拟机开发/鸿蒙虚拟机开发.md)
+    [阅读笔记 →](embedded/stm32/环境搭建/鸿蒙虚拟机开发/鸿蒙虚拟机开发.md)
+
+</div>
+
+### 外设
+
+<div class="grid cards" markdown>
+
+-   <span class="card-number">01 / GPIO</span>
+
+    **GPIO 工作模式与寄存器**
+
+    以 STM32F103 为例，对比推挽与开漏输出，并通过配置寄存器理解八种 GPIO 工作模式。
+
+    [阅读笔记 →](embedded/stm32/外设/GPIO/GPIO.md)
 
 </div>
 

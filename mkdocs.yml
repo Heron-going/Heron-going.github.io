@@ -37,7 +37,10 @@ nav:
       - 概览: notes.md
       - 嵌入式:
           - STM32:
-              - 鸿蒙 Windows 虚拟机开发与调试: embedded/stm32/鸿蒙虚拟机开发/鸿蒙虚拟机开发.md
+              - 环境搭建:
+                  - 鸿蒙 Windows 虚拟机开发与调试: embedded/stm32/环境搭建/鸿蒙虚拟机开发/鸿蒙虚拟机开发.md
+              - 外设:
+                  - GPIO 工作模式与寄存器: embedded/stm32/外设/GPIO/GPIO.md
           - micro-ROS:
               - 专题概览: embedded/micro-ROS/index.md
               - micro-ROS 简介: embedded/micro-ROS/micro-ROS简介.md
