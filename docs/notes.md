@@ -38,6 +38,14 @@ hide:
 
     [阅读笔记 →](embedded/stm32/外设/GPIO/GPIO.md)
 
+-   <span class="card-number">02 / EXTI</span>
+
+    **STM32 外部中断原理**
+
+    理解 GPIO、EXTI、NVIC 与中断向量表的关系，认识触发方式、优先级和不同系列的实现差异。
+
+    [阅读笔记 →](embedded/stm32/外设/外部中断/外部中断.md)
+
 </div>
 
 ## 嵌入式 · micro-ROS

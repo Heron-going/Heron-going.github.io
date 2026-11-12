@@ -1,5 +1,5 @@
-site_name: Heron-going 的博客
-site_description: 记录嵌入式开发的学习和技术
+site_name: Heron-going 的笔记
+site_description: 记录嵌入式开发的学习过程、遇到的问题和解决方法
 site_url: https://Heron-going.github.io/
 
 theme:
@@ -11,13 +11,13 @@ theme:
   palette:
     - scheme: default
       primary: custom
-      accent: cyan
+      accent: blue
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
     - scheme: slate
       primary: custom
-      accent: cyan
+      accent: blue
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
@@ -41,6 +41,7 @@ nav:
                   - 鸿蒙 Windows 虚拟机开发与调试: embedded/stm32/环境搭建/鸿蒙虚拟机开发/鸿蒙虚拟机开发.md
               - 外设:
                   - GPIO 工作模式与寄存器: embedded/stm32/外设/GPIO/GPIO.md
+                  - 外部中断原理: embedded/stm32/外设/外部中断/外部中断.md
           - micro-ROS:
               - 专题概览: embedded/micro-ROS/index.md
               - micro-ROS 简介: embedded/micro-ROS/micro-ROS简介.md
@@ -65,3 +66,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/notes.js
