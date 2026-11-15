@@ -55,6 +55,14 @@ hide:
 
 </div>
 
+<div class="note-row" markdown>
+
+### [串口通信原理](embedded/stm32/外设/串口/串口.md)
+
+理解 UART 帧格式、波特率和过采样，了解三种发送方式与 CH340 的接线。
+
+</div>
+
 </section>
 
 <section class="note-group" data-note-topic="micro-ros" markdown="block">

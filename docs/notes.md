@@ -46,6 +46,14 @@ hide:
 
     [阅读笔记 →](embedded/stm32/外设/外部中断/外部中断.md)
 
+-   <span class="card-number">03 / UART</span>
+
+    **串口通信原理**
+
+    从帧格式、过采样和波特率分频入手，理解轮询、中断与 DMA 发送，并通过 CH340 连接电脑。
+
+    [阅读笔记 →](embedded/stm32/外设/串口/串口.md)
+
 </div>
 
 ## 嵌入式 · micro-ROS
